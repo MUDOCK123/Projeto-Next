@@ -1,0 +1,87 @@
+/* styles.module.css */
+
+/* Reset de estilos para remover margens e preenchimentos padrão */
+
+
+/* Estilo básico para o body */
+
+
+/* Estilo para o header */
+.header {
+    background-color: #202225; /* Cor de fundo do cabeçalho */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilo para o botão de bate-papo no header */
+.bate_papo {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bate-papo {
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.bate-papo:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo ao passar o mouse */
+}
+
+/* Cor do texto "BATE-PAPO" */
+.bate-papo h4 {
+    color: #fff; /* Cor do texto branco */
+}
+
+/* Estilo para a div principal que contém os perfis */
+.principal {
+    border-right: 70px solid #202225;
+    margin-right: 100%;
+    padding: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: column; /* Organiza os perfis verticalmente */
+    align-items: flex-start; /* Alinha à esquerda */
+}
+
+/* Estilo para os perfis de usuário */
+.perfil2 {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0; /* Margem entre os perfis */
+}
+
+/* Estilo para o footer */
+.footer {
+    background-color: #202225; /* Cor de fundo do rodapé */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para a caixa de entrada de texto no footer */
+.caixa {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    background-color: #40444b; /* Cor de fundo da caixa de entrada */
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+
+.conversa {
+    border-right: 100px solid black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
